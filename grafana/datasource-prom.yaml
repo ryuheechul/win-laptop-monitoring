@@ -1,0 +1,10 @@
+datasources:
+ - name: prom
+   type: prometheus
+   access: proxy
+   orgId: 1
+   # assuming the Prometheus instance is running and expose to 9090 on the host side
+   url: http://prometheus:9090 
+   isDefault: true
+   version: 1
+   editable: false

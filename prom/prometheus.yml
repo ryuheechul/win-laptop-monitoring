@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: 'ohmgraphite'
+    scrape_interval: 6s
+    scrape_timeout: 5s
+    static_configs:
+      - targets: ['ohmgraphite:4445']
