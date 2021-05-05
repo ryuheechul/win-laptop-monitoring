@@ -1,4 +1,6 @@
-# Monitoring Windows 10 laptop
+# Monitoring Windows 10 machine
+
+> it's a part of [my Windows personalizations](https://gist.github.com/ryuheechul/494f4e6f08eaca34ef00ab8b238eca2a)
 
 This little setup is with these assumptions: 
 - this runs on WSL2
