@@ -3,7 +3,7 @@
 # sudo chown -R nobody .data
 
 docker run \
-  --rm -p 9090:9090 -it -d \
+  --restart=always -p 9090:9090 -it -d \
   --name=prometheus \
   --entrypoint=/usr/local/bin/entrypoint.sh \
   -v $(pwd)/prom/prometheus.yml:/etc/prometheus/prometheus.yml \

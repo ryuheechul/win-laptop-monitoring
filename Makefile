@@ -1,6 +1,10 @@
-.PHONY: log
-log:
+.PHONY: log-prom
+log-prom:
 	docker logs -f prometheus
+
+.PHONY: log-grafana
+log-grafana:
+	docker logs -f grafana
 
 .PHONY: run
 run: run-prometheus run-grafana
